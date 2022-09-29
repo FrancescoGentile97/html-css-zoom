@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+main {
+    padding-bottom: 2rem;
+}
+
+footer {
+    background-color: rgb(34, 34, 34);
+}
+
 .container {
     width: 920px;
     margin: 0 auto;
@@ -17,6 +25,10 @@
     width: 100vw;
     height: 100vw;
 
+}
+
+.nav-container {
+    margin-bottom: 2rem;
 }
 
 .nav-button {
@@ -34,4 +46,57 @@
 .img-container {
     flex-basis: calc((100% / 7) - 0.2rem);
 
+}
+
+.footer-container {
+    display: flex;
+    gap: 1rem;
+    padding-left: 1rem;
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-button {
+    padding: 3px;
+    color: white;
+    background-color: rgb(74, 74, 74);
+    border-radius: 4px;
+}
+
+.icon-text {
+    color: white;
+    font-size: small;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.white-text{
+    color: white;
+}
+
+
+.arrow-container {
+    display: flex;
+    align-items: center;
+}
+
+.arrow {
+    color: white;
+    font-size: 12px;
+}
+
+.prova {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.end-button {
+    color: red;
+    background-color: rgb(74, 74, 74);
+    padding: 1rem;
 }

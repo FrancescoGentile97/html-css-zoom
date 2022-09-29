@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <title>Zoom</title>
 
 </head>
@@ -15,8 +16,8 @@
         <nav>
             <div class="nav-container">
                 <div class="nav-button">
-                    <button> speaker view </button>
-                    <button> icona </button>
+                    <button class="top-button"> <i class="fa-solid fa-table-cells"></i>speaker view </button>
+                    <button class="top-button"> <i class="fa-solid fa-maximize"></i> </button>
                 </div>
             </div>
 
@@ -138,15 +139,87 @@
                 <div class="img-container">
                     <img src="img/papera.jpeg" alt="" class="image">
                 </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-container">
+                <!-- right icon (mic) -->
+                <div class="prova">
+                    <div class="right-icon-container align-center">
+                        <div class="mic-icon white-text"><i class="fa-solid fa-microphone"></i></div>
+                        <div class="icon-text">Mute</div>
+                    </div>
+                    <!-- contenitore per la freccia -->
+                    <div class="arrow-container">
+                        <div class="arrow"><i class="fa-solid fa-chevron-up"></i></div>
+                    </div>
+
+                    <!-- right icon (video) -->
+                    <div class="footer-container">
+                        <div class="right-icon-containe align-center">
+                            <div class="video-icon white-text"><i class="fa-solid fa-video"></i></div>
+                            <div class="icon-text">stop video</div>
+                        </div>
+                        <!-- contenitore per la freccia -->
+                        <div class="arrow-container">
+                            <div class="arrow"><i class="fa-solid fa-chevron-up"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- middle icon -->
+                <div class="footer-container">
+                    <div class="prova">
+                        <div class="middle-icon-container align-center">
+                            <div class="invite-icon white-text"><i class="fa-solid fa-user-plus"></i></div>
+                            <div class="icon-text">Invite</div>
+                        </div>
+                        <div class="middle-icon-container align-center">
+                            <div class="part-icon white-text"><i class="fa-solid fa-user-group"></i></div>
+                            <div class="icon-text">Manage partecipants</div>
+                        </div>
+                        <div class="middle-icon-container align-center">
+                            <div class="graph-icon white-text"><i class="fa-solid fa-share-from-square"></i></div>
+                            <div class="icon-text">Polling</div>
+                        </div>
+                        <!-- middle icon 2nd wave -->
+                        <div class="footer-container">
+                            <div class="arrow-container">
+                                <div class="arrow"><i class="fa-solid fa-chevron-up"></i></div>
+                            </div>
+                            <div class="middle-icon-container align-center">
+                                <div class="invite-icon white-text"><i class="fa-solid fa-comment"></i></div>
+                                <div class="icon-text">Chat</div>
+                            </div>
+                            <div class="middle-icon-container align-center">
+                                <div class="record-icon white-text"><i class="fa-solid fa-record-vinyl"></i></div>
+                                <div class="icon-text">Record</div>
+                            </div>
+                            <div class="middle-icon-container align-center">
+                                <div class="rooms-icon white-text"><i class="fa-solid fa-table-cells-large"></i></div>
+                                <div class="icon-text">Breakout Rooms</div>
+                            </div>
+                            <div class="middle-icon-container align-center">
+                                <div class="more-icon white-text"><i class="fa-solid fa-ellipsis"></i></div>
+                                <div class="icon-text">More</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- right end button -->
+                <div class="footer-button">
+                    <button class="end-button">End Meeting</button>
+                </div>
+
 
             </div>
-    </div>
-    </main>
 
-    <footer>
-        <div class="footer-cotainer"></div>
+    </div>
     </footer>
     </div>
+    </div>
+
 
 
 
